@@ -1,0 +1,55 @@
+body {
+	font-size: 2rem;
+	color: white;
+	background: linear-gradient(to right, blue, red);
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+h3 {
+	text-decoration: underline;
+}
+li {
+	list-style: none;
+}
+
+[type="checkbox"] {
+	zoom: 2;
+}
+/* main */
+.main {
+	width: 80%;
+	margin: auto;
+}
+
+/* add new task form */
+.form {
+	text-align: center;
+}
+
+form > input {
+	line-height: 1rem;
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+/* task sections */
+.task-sections,
+.items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* not-to-do */
+.to-do,
+.not-to-do {
+	min-width: 50%;
+}
+
+hr {
+	margin: 2rem;
+}

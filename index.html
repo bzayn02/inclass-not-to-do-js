@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Not to do task lists</title>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>Not to do task lists</h1>
+			<div class="main">
+				<div class="form">
+					<form action="javascript:void(0);" onsubmit="handleOnSubmit(this)">
+						<input type="text" value="" name="task" placeholder="Enter the task" />
+						<input type="number" value ="" name="hr" placeholder="Enter hour/week" />
+						<input type="submit" value="Add" />
+					</form>
+				</div>
+				<hr />
+				<section class="task-sections">
+					<div class="to-do">
+						<h3>Tasks Lists</h3>
+						<ul id="to-do-list">
+							
+							
+						</ul>
+						<hr />
+						Total hours allocated = hr/w
+					</div>
+					<hr />
+					<div class="not-to-do">
+						<h3>Not to do list</h3>
+						<ul id="bad-task-list">
+							
+						</ul>
+						<hr />
+						Total hours saved = hr/w
+					</div>
+				</section>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
